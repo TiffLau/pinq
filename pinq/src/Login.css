@@ -1,0 +1,9 @@
+.Login {
+    position: absolute;
+    background-color: #dadafc;
+    left: 50%;
+    top: 55%;
+    height: 70vh;
+    width: 70vw;
+    transform: translate(-50%, -50%);
+}
