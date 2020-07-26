@@ -1,5 +1,4 @@
 import React from 'react';
-import './Signup.css';
 import { render } from '@testing-library/react';
 
 function Signup() {
@@ -9,25 +8,25 @@ function Signup() {
 
       <label class="inputType">
         First Name: 
-        <br></br><input type="text" className="inputBox"></input>
+        <br></br><input type="text" className="inputBox" placeholder="Enter first name"></input>
       </label>
       <br></br><br></br>
 
       <label class="inputType">
         Last Name: 
-        <br></br><input type="text" className="inputBox"></input>
+        <br></br><input type="text" className="inputBox" placeholder="Enter last name"></input>
       </label>
       <br></br><br></br>
 
       <label class="inputType">
         Email Address: 
-        <br></br><input type="text" className="inputBox"></input>
+        <br></br><input type="text" className="inputBox" placeholder="Enter email address"></input>
       </label>
       <br></br><br></br>
 
       <label class="inputType">
         Password: 
-        <br></br><input type="text" className="inputBox"></input>
+        <br></br><input type="text" className="inputBox" placeholder="Enter password"></input>
       </label>
       <br></br>
 

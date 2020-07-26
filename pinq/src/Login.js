@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './Login.css';
 import { render } from '@testing-library/react';
 
 function Login() {
@@ -9,13 +8,13 @@ function Login() {
 
       <label class="inputType">
         Email Address:
-        <br></br><input type="text" className="inputBox"></input>
+        <br></br><input type="text" className="inputBox" placeholder="Enter email address"></input>
       </label>
       <br></br><br></br>
 
       <label class="inputType">
         Password:
-        <br></br><input type="text" className="inputBox"></input>
+        <br></br><input type="text" className="inputBox" placeholder="Enter password"></input>
       </label>
       <br></br>
 

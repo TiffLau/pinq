@@ -1,5 +1,4 @@
 import React from 'react';
-import './Contacts.css';
 import { render } from '@testing-library/react';
 
 function Contacts() {

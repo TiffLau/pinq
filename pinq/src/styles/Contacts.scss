@@ -1,9 +1,9 @@
-.Reminders {
+.Contacts {
     text-align: center;
-    padding: 5vh 5vw;
+    padding: 2vh 5vw;
 }
 
-.reminderCard {
+.contactCard {
     background-color: #dadafc;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -11,7 +11,7 @@
     width: 25vw;
 }
 
-.reminderCard:hover {
+.contactCard:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
