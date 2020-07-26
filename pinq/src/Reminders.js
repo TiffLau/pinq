@@ -4,7 +4,6 @@ function Reminders() {
   let[loading, setLoading] = useState(true);
   let[reminders, setReminders] = useState();
 
-
   const getReminders = async () => {
     let response = await fetch(`https://cors-anywhere.herokuapp.com/https://mighty-reaches-04321.herokuapp.com/reminders`, {
       method: 'GET',
@@ -14,7 +13,6 @@ function Reminders() {
     }
     );
     let data = await response.json()
-    console.log(data)
     setReminders(data.data);
     setLoading(false);
   }

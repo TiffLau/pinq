@@ -1,0 +1,3 @@
+[submodule "pinq/pinq-api"]
+	path = pinq/pinq-api
+	url = https://github.com/MathyouMB/pinq-api
