@@ -18,7 +18,7 @@ function Enter() {
       case "date":
           setDate(e.target.value);
           break;
-      case "date":
+      case "time":
           setTime(e.target.value);
           break;
       case "description":
