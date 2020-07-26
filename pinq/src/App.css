@@ -8,6 +8,14 @@
   height: 100vh;
 }
 
+.welcome {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 4vh;
+  color: #617499;
+  padding-top: 4.5vh;
+}
+
 /*.App-logo {
   height: 40vmin;
   pointer-events: none;

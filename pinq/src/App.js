@@ -2,13 +2,15 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Header from './Header'
+import Signup from './Signup';
 import Login from './Login';
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <Login/>
+      <p className="welcome">Hello! Welcome to pinq!</p>
+      <Signup/>
     </div>
   );
 }
