@@ -4,8 +4,8 @@ import { render } from '@testing-library/react';
 function Contacts() {
   return (
     <div className="Contacts">
-        <div class="contactCard">
-            <div class="container">
+        <div className="contactCard">
+            <div className="container">
                 <h4><b>Name</b></h4>
                 <br></br>
                 <p>Email</p>

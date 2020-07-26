@@ -1,6 +1,10 @@
 .Reminders {
     text-align: center;
     padding: 2vh 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .reminderCard {
@@ -8,7 +12,8 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     transition: 0.3s;
-    width: 25vw;
+    width: 250px;
+    margin: 10px;
 }
 
 .reminderCard:hover {

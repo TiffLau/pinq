@@ -6,13 +6,13 @@ function Login() {
     <div className="Login">
       <p className="text">Login to your account here:</p>
 
-      <label class="inputType">
+      <label className="inputType">
         Email Address:
         <br></br><input type="text" className="inputBox" placeholder="Enter email address"></input>
       </label>
       <br></br><br></br>
 
-      <label class="inputType">
+      <label className="inputType">
         Password:
         <br></br><input type="text" className="inputBox" placeholder="Enter password"></input>
       </label>

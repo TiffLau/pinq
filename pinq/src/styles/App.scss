@@ -5,7 +5,8 @@
 
 .App {
   background-color: #fef5d4;
-  height: 100vh;
+  min-height: 100vh;
+  height: fit-content;
 }
 
 .welcome {
