@@ -2,15 +2,14 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Header from './Header'
-import Signup from './Signup';
-import Login from './Login';
+import Reminders from './Reminders';
 
 function App() {
   return (
     <div className="App">
       <Header/>
       <p className="welcome">Hello! Welcome to pinq!</p>
-      <Signup/>
+      <Reminders/>
     </div>
   );
 }

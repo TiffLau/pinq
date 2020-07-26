@@ -1,32 +1,32 @@
 import React from 'react';
-import './Signup.css';
+import './Enter.css';
 import { render } from '@testing-library/react';
 
-function Signup() {
+function Enter() {
   return (
-    <div className="Signup">
-      <p className="text">Create an account here:</p>
+    <div className="Enter">
+      <p className="text">Enter a new reminder here:</p>
 
       <label class="inputType">
-        First Name: 
+        Name of Contact:
         <br></br><input type="text" className="inputBox"></input>
       </label>
       <br></br><br></br>
 
       <label class="inputType">
-        Last Name: 
+        Snooze until [Date]:
         <br></br><input type="text" className="inputBox"></input>
       </label>
       <br></br><br></br>
 
       <label class="inputType">
-        Email Address: 
+        Snooze until [Time]: 
         <br></br><input type="text" className="inputBox"></input>
       </label>
       <br></br><br></br>
 
       <label class="inputType">
-        Password: 
+        Description: 
         <br></br><input type="text" className="inputBox"></input>
       </label>
       <br></br>
@@ -36,4 +36,4 @@ function Signup() {
   );
 }
 
-export default Signup;
+export default Enter;

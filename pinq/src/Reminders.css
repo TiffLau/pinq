@@ -1,0 +1,20 @@
+.Reminders {
+    text-align: center;
+    padding: 5vh 5vw;
+}
+
+.reminderCard {
+    background-color: #dadafc;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.3s;
+    width: 25vw;
+}
+
+.reminderCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 3vh;
+}

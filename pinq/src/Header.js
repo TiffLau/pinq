@@ -7,7 +7,7 @@ function Header() {
       <b className="companyName">pinq</b>
       <div className="allLinks">
         <a className="links" href=""><b>Enter</b></a>
-        <a className="links" href=""><b>Tasks</b></a>
+        <a className="links" href=""><b>Reminders</b></a>
         <a className="links" href=""><b>Contacts</b></a>
         <a className="links" href=""><b>Login</b></a>
       </div>

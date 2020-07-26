@@ -7,6 +7,7 @@
     width: 70vw;
     transform: translate(-50%, -50%);
     text-align: center;
+    box-shadow: 7px 10px #888888;
 }
 
 .text {
@@ -21,15 +22,16 @@
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2.5vh;
-    padding-bottom: 1vh;;
 }
 
 .inputBox {
-    padding: 1.5vh;
-    width: 80%;
+    width: 70%;
+    height: 5vh;
 }
 
 .submit {
     font-size: 2.5vh;
     padding: 1vw 3vh;
+    margin-top: 5vh;
+    background-color: #efbad6;
 }
